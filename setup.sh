@@ -2,5 +2,7 @@
 
 force_color_prompt=yes
 
-bash ./aliases.sh
+cp ./config/.bash_aliases ~/
+echo 'source ~/.bash_aliases' >> ~/.bashrc
+
 bash ./prompt.sh
