@@ -6,3 +6,5 @@ cp ./config/.bash_aliases ~/
 echo 'source ~/.bash_aliases' >> ~/.bashrc
 
 bash ./prompt.sh
+
+apt update && apt install lazygit
