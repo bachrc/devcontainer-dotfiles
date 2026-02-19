@@ -7,4 +7,3 @@ echo 'source ~/.bash_aliases' >> ~/.bashrc
 
 bash ./prompt.sh
 
-apt update && apt install -y lazygit
